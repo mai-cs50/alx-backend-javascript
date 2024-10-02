@@ -7,6 +7,7 @@ export default function getResponseFromAPI() {
 
       // If there was an error, you could use reject
       // reject(new Error("API call failed"));
-    }, 2000); // Simulating a 2-second delay
+    }
+  , 2000); // Simulating a 2-second delay
   });
 }
