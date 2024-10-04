@@ -9,9 +9,9 @@ export default function createIteratorObject(report) {
       } else {
           return { done: true };
         }
-      },
-      [Symbol.iterator]() {
-        return this;
-      },
-    };
+    },
+    [Symbol.iterator]() {
+      return this;
+    },
+  };
 }
